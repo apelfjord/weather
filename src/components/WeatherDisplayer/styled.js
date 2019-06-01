@@ -1,10 +1,12 @@
 import styled from 'styled-components/native';
 
+import {template, notchCompensator} from '../../constans/layout'
+
 export const WeatherDisplayerContainer = styled.View`
-      flex: 1;
       background-color: white;
       align-items: center;
-      justify-content: center;
+      height: ${template.topFrame - notchCompensator};
+      overflow: hidden;
   `
   
 export const WeatherDisplayerTitle = styled.Text`

@@ -8,5 +8,8 @@ export const WeatherDisplayerContainer = styled.View`
   `
   
 export const WeatherDisplayerTitle = styled.Text`
-    color: black;
+    font-size: 40;
+`
+export const AlignRow = styled.View`
+    flex-direction: row;
 `

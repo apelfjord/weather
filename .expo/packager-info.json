@@ -3,7 +3,7 @@
   "expoServerPort": null,
   "packagerPort": null,
   "packagerPid": null,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null
+  "expoServerNgrokUrl": "https://4s-e7c.anonymous.weatherapp.exp.direct",
+  "packagerNgrokUrl": "https://packager.4s-e7c.anonymous.weatherapp.exp.direct",
+  "ngrokPid": 1889
 }

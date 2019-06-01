@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {TopScreenContainer} from './styled'
+import {WeatherScreenContainer} from './styled'
 import WeatherDisplayer from '../../components/WeatherDisplayer/WeatherDisplayer'
 import Main from '../../components/Main/Main';
 
@@ -16,10 +16,10 @@ export default class TopScreen extends React.Component {
 
     render() {
         return (
-            <TopScreenContainer>
+            <WeatherScreenContainer>
                 <WeatherDisplayer getData={this.getData}/>
                 <Main data={this.state.data}/>
-            </TopScreenContainer>
+            </WeatherScreenContainer>
         )
     }
 }

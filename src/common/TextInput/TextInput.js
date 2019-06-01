@@ -12,7 +12,7 @@ export default class TextInput extends React.Component {
         return (
             <TextInputContainer>
                 <TextInputElement 
-                    placeholder='skriv in din stad här'
+                    placeholder='enter your city here'
                     onChangeText={(text) => this.handlechange(text)}/>
             </TextInputContainer>
         )

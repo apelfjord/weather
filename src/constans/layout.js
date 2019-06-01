@@ -8,6 +8,6 @@ export const device = {
 }
 
 export const template = {
-    topFrame: device.height / 4,
-    mainFrame: device.height - (device.height / 4),
+    topFrame: device.height / 3,
+    mainFrame: device.height - (device.height / 3),
 }
